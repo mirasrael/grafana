@@ -85,6 +85,7 @@
     - "{{ grafana_dir_home }}"
     - "{{ grafana_dir_log }}"
     - "{{ grafana_dir_plugins }}"
+    - "{{ grafana_dir_pid }}"
 
 - name: ensure grafana is running and enabled to start on boot
   service:
